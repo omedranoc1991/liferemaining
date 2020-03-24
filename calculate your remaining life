@@ -1,0 +1,12 @@
+function lifeInWeeks(age) {
+  
+   var liferemaining = 90-age
+   var x = 365*liferemaining  
+   var y = 52*liferemaining
+   var z = 12*liferemaining
+
+   console.log("You have "+x+" days, "+y+" weeks and "+z+" months left.")
+
+}
+
+lifeInWeeks(your age)

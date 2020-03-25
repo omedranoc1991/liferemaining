@@ -1,0 +1,9 @@
+alert ("Love calculator")
+prompt("Your name");  
+prompt("The lover's name"); 
+
+
+   var lovescore = Math.random();
+   lovescore= Math.floor(lovescore*100)+1;
+
+    alert("Your love score is: "+lovescore+"%")

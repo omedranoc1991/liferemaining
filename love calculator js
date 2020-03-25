@@ -5,11 +5,13 @@ prompt("The lover's name");
 
    var lovescore = Math.random();
    lovescore= Math.floor(lovescore*100)+1;
-   if (lovescore>70){
-    alert("Your love score is: "+lovescore+"%  HE/SHE reallys love you")   
-  
+   if (lovescore>=70){
+    alert("Your love score is: "+lovescore+"%  HE/SHE reallys love you")  
+
    }
-   else{
-     alert("Your love score is: "+lovescore+"%  HE/SHE cheats on you with another")   
-   
- }
+   if (lovescore>=30 && lovescore< 70 ){
+    alert("Your love score is: "+lovescore+"%  HE/SHE doesn't love you" )  
+   } 
+  if (lovescore<30){
+    alert("Your love score is: "+lovescore+"%  HE/SHE cheats on you with another" )  
+   } 
